@@ -1,0 +1,35 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="CSS/page1.css"/>
+    </head>
+    
+
+    <body onload = pageOne();>
+
+        <button id = "back" type="button" onclick="goToPageTwo();"> NEXT PAGE </button>
+
+        <button type="button" onclick="showCards();"> NEXT CARD </button>
+
+        <img width = "200" height = "200" id="card"/>
+
+        <p id = 'p'> 
+            *note: All faces cards are counted as 10 // All aces cards are counted as 11 // Suit doesn't matter
+        </p>
+
+        <button type="button" onclick="showAllCards();"> SHOW ALL CARDS </button>
+
+        <button type="button" onclick="sortAscending();"> Ascending </button>
+
+        <button type="button" onclick="sortDescending();"> Descending </button>
+
+        <button type="button" onclick="shuffle();"> Shuffle </button>
+
+        
+        <div id="image"></div>
+
+        <div id="all-images"></div>
+
+        <script src = "culminating.js"></script>
+    </body>
+</html>

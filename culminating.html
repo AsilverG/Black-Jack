@@ -1,0 +1,62 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="CSS/culminating.css"/>
+    </head>
+
+    <body onload = setUp();>
+
+        <button type="button" onclick="goBackPageTwo();"> Go Back </button>
+
+        <button type="button" id = "restart" onclick="reset();"> RESTART </button>
+
+        <button type="button" id = "play-again" onclick="playAgain();"> Continue Playing </button>
+
+        <p id = "player-money"></p>
+        
+        <p>
+            <label for="price" > Betting: </label>
+            <input type="number" id="price"/>
+        </p>
+
+        <button type="button" id = "ten" onclick = "ten();"> 
+            <img id="ten-chip"/>
+        </button>
+
+        <button type="button" id = "hundred" onclick = "hundred();"> 
+            <img id="hundred-chip"/>
+        </button>
+
+        <button type="button" id = "five-hundred" onclick = "fiveHundred();"> 
+            <img id="five-hundred-chip"/>
+        </button>
+
+        <button type="button" id = "thousand" onclick = "thousand();"> 
+            <img id="thousand-chip"/>
+        </button>
+
+        <p id = 'current'></p>
+
+        <p id = "results"></p>
+
+        <p> Dealer</p>
+
+        <img width = "300" height = "300" id="dealer-first-card"/>
+        <img width = "300" height = "300" id="dealer-second-card"/>
+        <div width = "300" height = "300" id="dealer-cards"></div>
+
+        <p></p>
+
+        <button id ='bet' type="button" onclick="bet();"> BET </button>
+        <button id = 'go' type="button" onclick="hit();"> HIT </button>
+        <button id = 'stop' type="button" onclick="stand();"> STAND </button>        
+
+        <p></p>
+
+        <p> Player</p>
+
+        <div width = "300" height = "300" id="player-cards"></div>
+
+        <script src = "culminating.js"></script>
+    </body>
+</html>

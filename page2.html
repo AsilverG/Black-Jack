@@ -1,0 +1,60 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="CSS/page2.css"/>
+    </head>
+
+    <body onload = "resetCustom();">
+
+        <h1>
+            BLACK-JACK
+        </h1>
+        
+        <p>
+            Card Values: <br/>
+            1. Number cards (2-10) are worth their face value. <br/>
+            2. Face cards (Jack, Queen, King) are each worth 10. <br/>
+            3. Aces can be the value of 1 or 11, depending on which value benefits the hand more. <br/>
+        </p>
+
+        <p> 
+            Objective: <br/>
+            The main goal of Blackjack is to beat the dealer by having a hand value closer to 21 (targetValue) without exceeding it.
+        </p>
+
+        <p> 
+            Game Start: <br/>
+            Players are dealt two cards, facing up. <br/>
+            The dealer receives one card facing up and one facing down.
+        </p>
+
+        <p> 
+            Player's Turn: <br/>
+            Players can choose to "Hit" to receive additional cards. <br/>
+            Players can "Stand" to keep their current hand and end their turn. <br/>
+            Players can continue to "Hit" until they decide to "Stand" or until bust, their hand value exceeds 21 (targetValue).
+        </p>
+
+        <p>
+            Dealer's Turn: <br/>
+            The dealer reveals their card that is facing down (hole card). <br/>
+            The dealer must "Hit" until their hand value is at least 17 (dealerMaxValue). <br/>
+            The dealer must "Stand" if their hand value is 17 (dealerMaxValue) or higher.
+        </p>
+
+        <p>
+            Result: <br/>
+            Player wins: Player gains the amount of money betted <br/>
+            Dealer wins: Player loses the amount of money betted <br/>
+            Tie: -nothing happens - 
+        </p>
+
+          
+        <button type="button" onclick="goBackPageOne();"> Go Back </button>
+        <button type="button" onclick="goToCustom();"> go to Custom Page </button>
+        <button type="button" onclick="goToMain();"> Play Game </button>        
+      
+
+        <script src = "culminating.js"></script>
+    </body>
+</html>
