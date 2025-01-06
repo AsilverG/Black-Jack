@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #35a2c957;
+    color: #333;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    font-size: 18px;
+    padding: 12px 24px;
+    margin: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="number"] {
+    width: 90px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#price {
+    margin-top: 10px;
+}
+
+#results {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #e74c3c;
+}
+
+#dealer-first-card,
+#dealer-second-card,
+#player-first-card,
+#player-second-card {
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#dealer-cards,
+#player-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#dealer-cards img,
+#player-cards img {
+    margin-right: 10px;
+}
+
+#dealer-cards img:last-child,
+#player-cards img:last-child {
+    margin-right: 0;
+}

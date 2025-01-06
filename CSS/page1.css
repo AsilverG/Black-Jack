@@ -1,0 +1,57 @@
+body {
+  background-color: #136c8c57;
+}
+
+#all-images {
+  width: 400px;
+  border: 1px solid #fb0505;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  margin: auto; 
+}
+
+#all-images img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+button, #image {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#card {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
